@@ -14,11 +14,6 @@ public class Kata {
           exp.toString().charAt(exp.toString().length()-1));
       
         switch(lastBase){
-        case 0:
-        case 1:
-        case 5:
-        case 6:
-            return lastBase;
         case 4:
             return lastTwoExp%2==0?6:4;
         case 9:
